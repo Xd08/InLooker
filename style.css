@@ -1,0 +1,48 @@
+body {
+background-size: cover;
+}
+
+.heading {
+    margin-top: 0px;
+    width:100%;
+    font-size: 20px;
+}
+
+.start {
+    margin-top: 30px;
+}
+
+.copy_right_footer {
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+canvas {
+    border: 5px groove goldenrod;
+    box-shadow: 5px 5px 5px lightcoral;
+    border-radius: 20px;
+    animation-name: xyz;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes xyz {
+    from{
+        box-shadow: 5px 5px 5px skyblue;
+    }
+    to {
+        box-shadow: 5px 5px 5px steelblue;
+    }
+}
+
+.animalname {
+    width: 50%;
+    height: 20px;
+}
+
+.status {
+    margin-bottom: 50px;
+}
